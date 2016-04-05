@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>mobile_campaign</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="/mobile_campaign/general/rep_year:hint">
+            <value>Please Select Year Information</value>
+          </text>
+          <text id="/mobile_campaign/general/sr:hint">
+            <value>Please select sub recipent name</value>
+          </text>
+          <text id="/mobile_campaign/events/group_session:label">
+            <value>Please Enter Group Session in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events/coun_num:label">
+            <value>Please Enter Counseling in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/clinical/abscess_followup:label">
+            <value>Please Enter Abscess Followup cases in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/clinical/gh:label">
+            <value>Please Enter GH in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media/status:label">
+            <value>Rank The Overall Condition</value>
+          </text>
+          <text id="/mobile_campaign/media/col_voice:label">
+            <value>Collector Voice</value>
+          </text>
+          <text id="/mobile_campaign/general/rep_period:hint">
+            <value>Please Select Reporting Period</value>
+          </text>
+          <text id="/mobile_campaign/events/one_to_one:label">
+            <value>Please Enter One to One session in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events/one_part:label">
+            <value>Please Enter participnts in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media/status:hint">
+            <value>Please rank the Overall Condition</value>
+          </text>
+          <text id="/mobile_campaign/events/iec_dist:label">
+            <value>Please Enter # of IEC Distributed in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/services/dist_condom:label">
+            <value>Please Enter Condom</value>
+          </text>
+          <text id="/mobile_campaign/events/coun_part:label">
+            <value>Please Enter Counseling Prticipants in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/clinical/sti:label">
+            <value>Please Enter STI new case in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events:label">
+            <value>EVENTS RELATED</value>
+          </text>
+          <text id="/mobile_campaign/services/ns_syring:label">
+            <value>Please Enter Syring</value>
+          </text>
+          <text id="/mobile_campaign/general/sr:label">
+            <value>Name of SR</value>
+          </text>
+          <text id="/mobile_campaign/services:label">
+            <value>SERVICE RELATED</value>
+          </text>
+          <text id="/mobile_campaign/clinical/sti_followup:label">
+            <value>Please Enter STI follow-up case in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_idu:label">
+            <value>You Select &quot;<output value=" /mobile_campaign/general/sr "/>&quot; as SR then What is the Name of SSR?</value>
+          </text>
+          <text id="/mobile_campaign/services/ns_needle:label">
+            <value>Please Enter Needle</value>
+          </text>
+          <text id="/mobile_campaign/clinical/abscess:label">
+            <value>Please Enter Abscess in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general:label">
+            <value>GENERAL INFORMATION</value>
+          </text>
+          <text id="/mobile_campaign/events/lla_meeting:label">
+            <value>Please Enter LLA Meeting in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media:label">
+            <value>MULTI MEDIA</value>
+          </text>
+          <text id="/mobile_campaign/events/iga_part:label">
+            <value>Please Enter IGA Participants in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_idu:hint">
+            <value>Please select Sub Sub Recipant Name</value>
+          </text>
+          <text id="/mobile_campaign/Note_end:label">
+            <value>This is a demo note end code</value>
+          </text>
+          <text id="/mobile_campaign/clinical:label">
+            <value>CLINICAL SERVICE RELATED</value>
+          </text>
+          <text id="/mobile_campaign/general/rep_year:label">
+            <value>Reporting Year</value>
+          </text>
+          <text id="/mobile_campaign/media/col_img:label">
+            <value>Collector Image</value>
+          </text>
+          <text id="/mobile_campaign/events/lla_part:label">
+            <value>Please Enter LLA Meeting Number in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_fsw:label">
+            <value>You Select &quot;<output value=" /mobile_campaign/general/sr "/>&quot; as SR then What is the Name of SSR?</value>
+          </text>
+          <text id="/mobile_campaign/clinical/htc:label">
+            <value>Please Enter HTC testing in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/summary_intro:label">
+            <value>Summary of phone information
+Start time:
+<output value=" /mobile_campaign/start "/>
+Date Today:
+<output value=" /mobile_campaign/today "/>
+Device ID:
+<output value=" /mobile_campaign/deviceid "/>
+SIM Serial:
+<output value=" /mobile_campaign/simserial "/>
+Phone number:
+<output value=" /mobile_campaign/phonenumber "/></value></text>
+          <text id="/mobile_campaign/events/group_part:label">
+            <value>Please Enter Group Participants in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events/iga_acti:label">
+            <value>Please Enter IGA Training in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media/col_video:label">
+            <value>Collector Video</value>
+          </text>
+          <text id="/mobile_campaign/general/rep_period:label">
+            <value>Reporting Year :: &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and what is Reporting Period?</value>
+          </text>
+          <text id="/mobile_campaign/events/iec_part:label">
+            <value>Please Enter # of Participants received IEC in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_fsw:hint">
+            <value>Please select Sub Sub Recipant Name</value>
+          </text>
+        </translation>
+        <translation lang="Bangli">
+          <text id="/mobile_campaign/general/rep_year:hint">
+            <value>Please Select Year Information</value>
+          </text>
+          <text id="/mobile_campaign/general/sr:hint">
+            <value>Please select sub recipent name</value>
+          </text>
+          <text id="/mobile_campaign/events/group_session:label">
+            <value>Please Enter Group Session in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events/coun_num:label">
+            <value>Please Enter Counseling in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/clinical/abscess_followup:label">
+            <value>Please Enter Abscess Followup cases in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/clinical/gh:label">
+            <value>Please Enter GH in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media/status:label">
+            <value>Rank The Overall Condition</value>
+          </text>
+          <text id="/mobile_campaign/media/col_voice:label">
+            <value>Collector Voice</value>
+          </text>
+          <text id="/mobile_campaign/general/rep_period:hint">
+            <value>Please Select Reporting Period</value>
+          </text>
+          <text id="/mobile_campaign/events/one_to_one:label">
+            <value>Please Enter One to One session in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events/one_part:label">
+            <value>Please Enter participnts in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media/status:hint">
+            <value>Please rank the Overall Condition</value>
+          </text>
+          <text id="/mobile_campaign/events/iec_dist:label">
+            <value>Please Enter # of IEC Distributed in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/services/dist_condom:label">
+            <value>Please Enter Condom</value>
+          </text>
+          <text id="/mobile_campaign/events/coun_part:label">
+            <value>Please Enter Counseling Prticipants in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/clinical/sti:label">
+            <value>Please Enter STI new case in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events:label">
+            <value>EVENTS RELATED</value>
+          </text>
+          <text id="/mobile_campaign/services/ns_syring:label">
+            <value>Please Enter Syring</value>
+          </text>
+          <text id="/mobile_campaign/general/sr:label">
+            <value>Name of SR</value>
+          </text>
+          <text id="/mobile_campaign/services:label">
+            <value>SERVICE RELATED</value>
+          </text>
+          <text id="/mobile_campaign/clinical/sti_followup:label">
+            <value>Please Enter STI follow-up case in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_idu:label">
+            <value>You Select &quot;<output value=" /mobile_campaign/general/sr "/>&quot; as SR then What is the Name of SSR?</value>
+          </text>
+          <text id="/mobile_campaign/services/ns_needle:label">
+            <value>Please Enter Needle</value>
+          </text>
+          <text id="/mobile_campaign/clinical/abscess:label">
+            <value>Please Enter Abscess in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general:label">
+            <value>GENERAL INFORMATION</value>
+          </text>
+          <text id="/mobile_campaign/events/lla_meeting:label">
+            <value>Please Enter LLA Meeting in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media:label">
+            <value>MULTI MEDIA</value>
+          </text>
+          <text id="/mobile_campaign/events/iga_part:label">
+            <value>Please Enter IGA Participants in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_idu:hint">
+            <value>Please select Sub Sub Recipant Name</value>
+          </text>
+          <text id="/mobile_campaign/Note_end:label">
+            <value>This is a demo note end code</value>
+          </text>
+          <text id="/mobile_campaign/clinical:label">
+            <value>CLINICAL SERVICE RELATED</value>
+          </text>
+          <text id="/mobile_campaign/general/rep_year:label">
+            <value>Reporting Year</value>
+          </text>
+          <text id="/mobile_campaign/media/col_img:label">
+            <value>Collector Image</value>
+          </text>
+          <text id="/mobile_campaign/events/lla_part:label">
+            <value>Please Enter LLA Meeting Number in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_fsw:label">
+            <value>You Select &quot;<output value=" /mobile_campaign/general/sr "/>&quot; as SR then What is the Name of SSR?</value>
+          </text>
+          <text id="/mobile_campaign/clinical/htc:label">
+            <value>Please Enter HTC testing in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/summary_intro:label">
+            <value>Summary of phone information
+Start time:
+<output value=" /mobile_campaign/start "/>
+Date Today:
+<output value=" /mobile_campaign/today "/>
+Device ID:
+<output value=" /mobile_campaign/deviceid "/>
+SIM Serial:
+<output value=" /mobile_campaign/simserial "/>
+Phone number:
+<output value=" /mobile_campaign/phonenumber "/></value></text>
+          <text id="/mobile_campaign/events/group_part:label">
+            <value>Please Enter Group Participants in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/events/iga_acti:label">
+            <value>Please Enter IGA Training in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/media/col_video:label">
+            <value>Collector Video</value>
+          </text>
+          <text id="/mobile_campaign/general/rep_period:label">
+            <value>Reporting Year :: &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and what is Reporting Period?</value>
+          </text>
+          <text id="/mobile_campaign/events/iec_part:label">
+            <value>Please Enter # of Participants received IEC in Year &quot;<output value=" /mobile_campaign/general/rep_year "/>&quot; and Period &quot;<output value=" /mobile_campaign/general/rep_period "/>&quot;</value>
+          </text>
+          <text id="/mobile_campaign/general/ssr_fsw:hint">
+            <value>Please select Sub Sub Recipant Name</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <mobile_campaign id="mobile_campaign">
+          <start/>
+          <today/>
+          <deviceid/>
+          <simserial/>
+          <phonenumber/>
+          <summary_intro/>
+          <general>
+            <sr/>
+            <ssr_idu/>
+            <ssr_fsw/>
+            <rep_year/>
+            <rep_period/>
+          </general>
+          <services>
+            <ns_needle/>
+            <ns_syring/>
+            <dist_condom/>
+          </services>
+          <clinical>
+            <sti/>
+            <sti_followup/>
+            <htc/>
+            <gh/>
+            <abscess/>
+            <abscess_followup/>
+          </clinical>
+          <events>
+            <one_to_one/>
+            <one_part/>
+            <group_session/>
+            <group_part/>
+            <lla_meeting/>
+            <lla_part/>
+            <coun_num/>
+            <coun_part/>
+            <iec_dist/>
+            <iec_part/>
+            <iga_acti/>
+            <iga_part/>
+          </events>
+          <media>
+            <col_img/>
+            <col_voice/>
+            <col_video/>
+            <status/>
+            <status_other/>
+          </media>
+          <Note_end/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </mobile_campaign>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/mobile_campaign/start" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/mobile_campaign/today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/mobile_campaign/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/mobile_campaign/simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/mobile_campaign/phonenumber" type="string"/>
+      <bind nodeset="/mobile_campaign/summary_intro" readonly="true()" type="string"/>
+      <bind nodeset="/mobile_campaign/general/sr" required="true()" type="select1"/>
+      <bind nodeset="/mobile_campaign/general/ssr_idu" relevant="selected( /mobile_campaign/general/sr ,'care')" required="true()" type="select1"/>
+      <bind nodeset="/mobile_campaign/general/ssr_fsw" relevant="selected( /mobile_campaign/general/sr ,'lighthouse')" required="true()" type="select1"/>
+      <bind nodeset="/mobile_campaign/general/rep_year" required="true()" type="select1"/>
+      <bind nodeset="/mobile_campaign/general/rep_period" required="true()" type="select1"/>
+      <bind nodeset="/mobile_campaign/services/ns_needle" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/services/ns_syring" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/services/dist_condom" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/clinical/sti" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/clinical/sti_followup" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/clinical/htc" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/clinical/gh" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/clinical/abscess" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/clinical/abscess_followup" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/one_to_one" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/one_part" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/group_session" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/group_part" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/lla_meeting" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/lla_part" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/coun_num" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/coun_part" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/iec_dist" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/iec_part" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/iga_acti" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/events/iga_part" required="true()" type="int"/>
+      <bind nodeset="/mobile_campaign/media/col_img" type="binary"/>
+      <bind nodeset="/mobile_campaign/media/col_voice" type="binary"/>
+      <bind nodeset="/mobile_campaign/media/col_video" type="binary"/>
+      <bind nodeset="/mobile_campaign/media/status" type="select"/>
+      <bind nodeset="/mobile_campaign/media/status_other" relevant="selected(../status, 'other')" type="string"/>
+      <bind nodeset="/mobile_campaign/Note_end" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/mobile_campaign/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/mobile_campaign/summary_intro">
+      <label ref="jr:itext('/mobile_campaign/summary_intro:label')"/>
+    </input>
+    <group ref="/mobile_campaign/general">
+      <label ref="jr:itext('/mobile_campaign/general:label')"/>
+      <select1 ref="/mobile_campaign/general/sr">
+        <label ref="jr:itext('/mobile_campaign/general/sr:label')"/>
+        <hint ref="jr:itext('/mobile_campaign/general/sr:hint')"/>
+        <item>
+          <label>CARE</label>
+          <value>care</value>
+        </item>
+        <item>
+          <label>Light House</label>
+          <value>lighthouse</value>
+        </item>
+      </select1>
+      <select1 ref="/mobile_campaign/general/ssr_idu">
+        <label ref="jr:itext('/mobile_campaign/general/ssr_idu:label')"/>
+        <hint ref="jr:itext('/mobile_campaign/general/ssr_idu:hint')"/>
+        <item>
+          <label>USS</label>
+          <value>uss</value>
+        </item>
+        <item>
+          <label>HELP</label>
+          <value>help</value>
+        </item>
+        <item>
+          <label>CAAP</label>
+          <value>caap</value>
+        </item>
+      </select1>
+      <select1 ref="/mobile_campaign/general/ssr_fsw">
+        <label ref="jr:itext('/mobile_campaign/general/ssr_fsw:label')"/>
+        <hint ref="jr:itext('/mobile_campaign/general/ssr_fsw:hint')"/>
+        <item>
+          <label>AAS</label>
+          <value>aas</value>
+        </item>
+        <item>
+          <label>DNS</label>
+          <value>dns</value>
+        </item>
+        <item>
+          <label>BWHC</label>
+          <value>bwhc</value>
+        </item>
+      </select1>
+      <select1 ref="/mobile_campaign/general/rep_year">
+        <label ref="jr:itext('/mobile_campaign/general/rep_year:label')"/>
+        <hint ref="jr:itext('/mobile_campaign/general/rep_year:hint')"/>
+        <item>
+          <label>2016</label>
+          <value>p2016</value>
+        </item>
+        <item>
+          <label>2017</label>
+          <value>p2017</value>
+        </item>
+      </select1>
+      <select1 ref="/mobile_campaign/general/rep_period">
+        <label ref="jr:itext('/mobile_campaign/general/rep_period:label')"/>
+        <hint ref="jr:itext('/mobile_campaign/general/rep_period:hint')"/>
+        <item>
+          <label>P-1</label>
+          <value>p1</value>
+        </item>
+        <item>
+          <label>P-2</label>
+          <value>p2</value>
+        </item>
+        <item>
+          <label>P-3</label>
+          <value>p3</value>
+        </item>
+        <item>
+          <label>P-4</label>
+          <value>p4</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/mobile_campaign/services">
+      <label ref="jr:itext('/mobile_campaign/services:label')"/>
+      <input ref="/mobile_campaign/services/ns_needle">
+        <label ref="jr:itext('/mobile_campaign/services/ns_needle:label')"/>
+      </input>
+      <input ref="/mobile_campaign/services/ns_syring">
+        <label ref="jr:itext('/mobile_campaign/services/ns_syring:label')"/>
+      </input>
+      <input ref="/mobile_campaign/services/dist_condom">
+        <label ref="jr:itext('/mobile_campaign/services/dist_condom:label')"/>
+      </input>
+    </group>
+    <group ref="/mobile_campaign/clinical">
+      <label ref="jr:itext('/mobile_campaign/clinical:label')"/>
+      <input ref="/mobile_campaign/clinical/sti">
+        <label ref="jr:itext('/mobile_campaign/clinical/sti:label')"/>
+      </input>
+      <input ref="/mobile_campaign/clinical/sti_followup">
+        <label ref="jr:itext('/mobile_campaign/clinical/sti_followup:label')"/>
+      </input>
+      <input ref="/mobile_campaign/clinical/htc">
+        <label ref="jr:itext('/mobile_campaign/clinical/htc:label')"/>
+      </input>
+      <input ref="/mobile_campaign/clinical/gh">
+        <label ref="jr:itext('/mobile_campaign/clinical/gh:label')"/>
+      </input>
+      <input ref="/mobile_campaign/clinical/abscess">
+        <label ref="jr:itext('/mobile_campaign/clinical/abscess:label')"/>
+      </input>
+      <input ref="/mobile_campaign/clinical/abscess_followup">
+        <label ref="jr:itext('/mobile_campaign/clinical/abscess_followup:label')"/>
+      </input>
+    </group>
+    <group ref="/mobile_campaign/events">
+      <label ref="jr:itext('/mobile_campaign/events:label')"/>
+      <input ref="/mobile_campaign/events/one_to_one">
+        <label ref="jr:itext('/mobile_campaign/events/one_to_one:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/one_part">
+        <label ref="jr:itext('/mobile_campaign/events/one_part:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/group_session">
+        <label ref="jr:itext('/mobile_campaign/events/group_session:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/group_part">
+        <label ref="jr:itext('/mobile_campaign/events/group_part:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/lla_meeting">
+        <label ref="jr:itext('/mobile_campaign/events/lla_meeting:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/lla_part">
+        <label ref="jr:itext('/mobile_campaign/events/lla_part:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/coun_num">
+        <label ref="jr:itext('/mobile_campaign/events/coun_num:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/coun_part">
+        <label ref="jr:itext('/mobile_campaign/events/coun_part:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/iec_dist">
+        <label ref="jr:itext('/mobile_campaign/events/iec_dist:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/iec_part">
+        <label ref="jr:itext('/mobile_campaign/events/iec_part:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/iga_acti">
+        <label ref="jr:itext('/mobile_campaign/events/iga_acti:label')"/>
+      </input>
+      <input ref="/mobile_campaign/events/iga_part">
+        <label ref="jr:itext('/mobile_campaign/events/iga_part:label')"/>
+      </input>
+    </group>
+    <group ref="/mobile_campaign/media">
+      <label ref="jr:itext('/mobile_campaign/media:label')"/>
+      <upload mediatype="image/*" ref="/mobile_campaign/media/col_img">
+        <label ref="jr:itext('/mobile_campaign/media/col_img:label')"/>
+      </upload>
+      <upload mediatype="audio/*" ref="/mobile_campaign/media/col_voice">
+        <label ref="jr:itext('/mobile_campaign/media/col_voice:label')"/>
+      </upload>
+      <upload mediatype="video/*" ref="/mobile_campaign/media/col_video">
+        <label ref="jr:itext('/mobile_campaign/media/col_video:label')"/>
+      </upload>
+      <select ref="/mobile_campaign/media/status">
+        <label ref="jr:itext('/mobile_campaign/media/status:label')"/>
+        <hint ref="jr:itext('/mobile_campaign/media/status:hint')"/>
+        <item>
+          <label>Poor</label>
+          <value>poor</value>
+        </item>
+        <item>
+          <label>Good</label>
+          <value>good</value>
+        </item>
+        <item>
+          <label>Better</label>
+          <value>better</value>
+        </item>
+        <item>
+          <label>Best</label>
+          <value>best</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/mobile_campaign/media/status_other">
+        <label>Specify other.</label>
+      </input>
+    </group>
+    <input ref="/mobile_campaign/Note_end">
+      <label ref="jr:itext('/mobile_campaign/Note_end:label')"/>
+    </input>
+  </h:body>
+</h:html>
